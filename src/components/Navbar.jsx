@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ user }) => {
   const logout = () => {
-    window.open("http://localhost:5000/auth/logout", "_self");
+    window.open(
+      "https://googleauthbackend-judrv.ondigitalocean.app/auth/logout",
+      "_self"
+    );
   };
   return (
     <div className="navbar">
